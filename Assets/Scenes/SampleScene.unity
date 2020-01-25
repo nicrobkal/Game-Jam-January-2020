@@ -324,11 +324,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -3624,7 +3624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followTarget: {fileID: 1332735859}
-  dampTime: 1
+  dampTime: 0.75
 --- !u!4 &533128630 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8323825228881221127, guid: 6ec9fd3a915acfd48a5404e1f0c9785e,
@@ -5474,6 +5474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8612103530672652313, guid: 851ea176798e47a42aecd32ab09cdd77,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8612103530672652318, guid: 851ea176798e47a42aecd32ab09cdd77,
         type: 3}

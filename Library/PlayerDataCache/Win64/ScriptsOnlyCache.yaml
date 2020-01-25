@@ -783,4 +783,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/nicro/Videos/Desktop/Top-Down Funhouse.exe
+  playerPath: C:/Users/nicro/Desktop/Top-Down Funhouse.exe
