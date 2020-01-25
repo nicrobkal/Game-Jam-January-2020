@@ -5,11 +5,15 @@ using UnityEngine;
 
 public class EnemyStats : MonoBehaviour
 {
+    public ParticleSystem BloodPoolPrefab;
+    public ParticleSystem BloodSpurtPrefab;
     public int health = 25;
     public float speed = 1.6f;
     public int damage = 5;
     public float damageCooldown = 0.5f;
+    public float approachPlayerDistance = 0.5f;
     private float currDamageCooldown = 0;
+    public bool hasBeenProvoked = false;
 
     // Start is called before the first frame update
     void Start()
@@ -30,13 +34,29 @@ public class EnemyStats : MonoBehaviour
     {
         if (collision.gameObject.tag == "Projectile")
         {
+            hasBeenProvoked = true;
             health -= collision.gameObject.GetComponent<Projectile>().damage;
+            ParticleSystem BloodPoolInstance = Instantiate(BloodPoolPrefab, new Vector3(transform.localPosition.x, transform.localPosition.y), transform.rotation) as ParticleSystem;
+            BloodPoolInstance.Play();
+            ParticleSystem BloodSpurtInstance = Instantiate(BloodSpurtPrefab, new Vector3(transform.localPosition.x, transform.localPosition.y), transform.rotation) as ParticleSystem;
+            BloodSpurtInstance.Play();
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("PC").transform.position) <= approachPlayerDistance || hasBeenProvoked)
+        {
+            GetComponent<AIPath>().canSearch = true;
+            hasBeenProvoked = true;
+        }
+        else
+        {
+            GetComponent<AIPath>().canSearch = false;
+            Debug.Log(Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("PC").transform.position));
+        }
+
         if(currDamageCooldown < damageCooldown)
         {
             currDamageCooldown += Time.deltaTime;

@@ -261,3 +261,4 @@ C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\AstarP
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\AstarPathfindingProject.csproj.CopyComplete
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\AstarPathfindingProject.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\AstarPathfindingProject.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\AstarPathfindingProject.csprojAssemblyReference.cache
