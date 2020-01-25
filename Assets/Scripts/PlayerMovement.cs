@@ -39,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
             if(playerStats.currStamina <= 0)
             {
                 playerStats.currStamina = 0;
+                GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * curSpeed, 0.8f),
+                                             Mathf.Lerp(0, Input.GetAxis("Vertical") * curSpeed, 0.8f));
             }
         }
         else

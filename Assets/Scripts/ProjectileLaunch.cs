@@ -13,7 +13,7 @@ public class ProjectileLaunch : MonoBehaviour
     public float burstInterval = 0.1f;
     private float currBurstInterval;
     public float pushbackForce = 20f;
-    private float pushbackShake = 1;
+    public float pushbackShake = 1;
     private PlayerStats playerStats;
 
     // Start is called before the first frame update

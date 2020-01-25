@@ -11,7 +11,10 @@ public class Projectile : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        foreach (GameObject ammoPickup in GameObject.FindGameObjectsWithTag("Ammo Pickup"))
+        {
+            Physics2D.IgnoreCollision(ammoPickup.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

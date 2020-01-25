@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Projectile
   - PC
+  - Ammo Pickup
   layers:
   - Default
   - TransparentFX

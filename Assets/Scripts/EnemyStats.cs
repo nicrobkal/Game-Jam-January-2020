@@ -19,6 +19,11 @@ public class EnemyStats : MonoBehaviour
     void Start()
     {
         GetComponent<AIPath>().maxSpeed = speed;
+
+        foreach(GameObject ammoPickup in GameObject.FindGameObjectsWithTag("Ammo Pickup"))
+        {
+            Physics2D.IgnoreCollision(ammoPickup.GetComponent<Collider2D>(), GetComponent<Collider2D>());
+        }
     }
 
     void OnCollisionStay2D(Collision2D collision)
