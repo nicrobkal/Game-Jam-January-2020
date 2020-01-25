@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 2098293994606827327}
   - component: {fileID: 2098293994606827326}
   - component: {fileID: 2098293994606827324}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Player
   m_TagString: PC
   m_Icon: {fileID: 0}
@@ -210,6 +210,7 @@ MonoBehaviour:
   numBursts: 3
   burstInterval: 0.125
   pushbackForce: 250
+  pushbackShake: 1
 --- !u!1001 &2098293994878067143
 PrefabInstance:
   m_ObjectHideFlags: 0

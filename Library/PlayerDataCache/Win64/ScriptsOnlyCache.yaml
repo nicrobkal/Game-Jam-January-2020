@@ -16,7 +16,6 @@ ScriptsOnlyBuild:
     - Pathfinding.AIDestinationSetter
     - Pathfinding.AIPath
     - Pathfinding.Seeker
-    - Pathfinding.UnityReferenceHelper
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
@@ -338,7 +337,7 @@ ScriptsOnlyBuild:
     className: AILerp
   - hash:
       serializedVersion: 2
-      Hash: e6ef3af317e3ee2158f932fd87e5d098
+      Hash: e12fdb57fd2b97b6763c40bf50c23f4c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProjectileLaunch

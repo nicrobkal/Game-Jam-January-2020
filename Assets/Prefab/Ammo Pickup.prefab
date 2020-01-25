@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 5404201699499759013}
   - component: {fileID: 5404201699499759014}
   - component: {fileID: 5404201699499759015}
-  m_Layer: 0
+  - component: {fileID: 2014612665436625953}
+  m_Layer: 10
   m_Name: Ammo Pickup
   m_TagString: Ammo Pickup
   m_Icon: {fileID: 0}
@@ -121,3 +122,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoCapacity: 15
+--- !u!114 &2014612665436625953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404201699499759008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1df7917657c760d49b9c28984cd3807b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

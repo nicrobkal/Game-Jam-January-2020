@@ -17,9 +17,9 @@ GameObject:
   - component: {fileID: 8612103530672652312}
   - component: {fileID: 8612103530672652315}
   - component: {fileID: 8612103530672652314}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   maxAcceleration: -2.5
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 2
+  pickNextWaypointDist: 1
   endReachedDistance: 0.2
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 670738326782641760, guid: 7001bf17c159aa64a8fe478612608282, type: 3}
+  target: {fileID: 2098293994606827325, guid: 7001bf17c159aa64a8fe478612608282, type: 3}
 --- !u!50 &8612103530672652313
 Rigidbody2D:
   serializedVersion: 4
@@ -243,9 +243,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf5fb324708cf749a466cbd27c75519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BloodPoolPrefab: {fileID: 4303068500583880314, guid: 6071ab9cb906c0c43a2ff7f0ba4a4e50,
+  BloodPoolPrefab: {fileID: 5240645653372040837, guid: 6071ab9cb906c0c43a2ff7f0ba4a4e50,
     type: 3}
-  BloodSpurtPrefab: {fileID: 6582639804676935763, guid: 7397b1e7a64b0f545964de6e74e14fdb,
+  BloodSpurtPrefab: {fileID: 250431102228995428, guid: 7397b1e7a64b0f545964de6e74e14fdb,
     type: 3}
   health: 25
   speed: 1.6
