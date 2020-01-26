@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 250431102228995431}
   - component: {fileID: 250431102228995430}
   - component: {fileID: 250431102228995426}
-  m_Layer: 12
+  m_Layer: 17
   m_Name: Blood Spurt
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5240645653372040836}
   - component: {fileID: 5240645653372040891}
   - component: {fileID: 5240645653372040890}
-  m_Layer: 12
+  m_Layer: 17
   m_Name: Blood Pool
   m_TagString: Untagged
   m_Icon: {fileID: 0}
