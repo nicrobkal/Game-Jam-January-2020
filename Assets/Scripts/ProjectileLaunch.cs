@@ -15,6 +15,7 @@ public class ProjectileLaunch : MonoBehaviour
     public float pushbackForce = 20f;
     public float pushbackShake = 1;
     private PlayerStats playerStats;
+    public AudioClip bulletNoise;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,8 @@ public class ProjectileLaunch : MonoBehaviour
         Physics2D.IgnoreCollision(bulletInstance.GetComponent<Collider2D>(), GetComponent<Collider2D>());
 
         bulletInstance.velocity = transform.right * bulletSpeed * -1;
+
+        GetComponent<AudioSource>().PlayOneShot(bulletNoise);
 
         GetComponent<Rigidbody2D>().AddForce(transform.right * pushbackForce * pushbackShake);
 
