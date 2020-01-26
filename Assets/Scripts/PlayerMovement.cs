@@ -24,12 +24,6 @@ public class PlayerMovement : MonoBehaviour
         maxSpeed = sprintSpeed;
         walkSpeed = playerStats.speed;
         sprintSpeed = walkSpeed + (walkSpeed / 2);
-
-        Physics2D.IgnoreLayerCollision(11, 17);
-        Physics2D.IgnoreLayerCollision(11, 15);
-        Physics2D.IgnoreLayerCollision(9, 15);
-        Physics2D.IgnoreLayerCollision(9, 17);
-        Physics2D.IgnoreLayerCollision(0, 17);
     }
 
     void Update()

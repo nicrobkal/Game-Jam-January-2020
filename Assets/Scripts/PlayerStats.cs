@@ -10,7 +10,7 @@ public class PlayerStats : MonoBehaviour
     public float speed = 1.25f;
     public float maxStamina = 10;
     public float currStamina;
-    public float staminaRechargeRate = 0.5f;
+    public float staminaRechargeRate = 2.5f;
     public float ammoCapacity = 100;
     public float currentAmmoCount = 60;
     public Slider healthSlider;
