@@ -248,7 +248,7 @@ MonoBehaviour:
   BloodSpurtPrefab: {fileID: 250431102228995428, guid: 7397b1e7a64b0f545964de6e74e14fdb,
     type: 3}
   health: 25
-  speed: 1.6
+  speed: 2
   damage: 5
   damageCooldown: 0.5
   approachPlayerDistance: 8

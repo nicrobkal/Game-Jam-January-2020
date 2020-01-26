@@ -11,6 +11,8 @@ public class PlayerMovement : MonoBehaviour
     public float staminaCooldown = 5f;
     private float currStaminaCooldown = 0f;
     private bool staminaRecharging = true;
+    private float horizontalMovementSpeed;
+    private float verticalMovementSpeed;
 
     private PlayerStats playerStats;
 
@@ -19,39 +21,42 @@ public class PlayerMovement : MonoBehaviour
     {
         playerStats = GetComponent<PlayerStats>();
 
-        walkSpeed = (float)(playerStats.speed + (playerStats.agility / 5));
+        maxSpeed = sprintSpeed;
+        walkSpeed = playerStats.speed;
         sprintSpeed = walkSpeed + (walkSpeed / 2);
 
         Physics2D.IgnoreLayerCollision(10, 12);
         Physics2D.IgnoreLayerCollision(9, 12);
     }
 
+    void Update()
+    {
+        horizontalMovementSpeed = Input.GetAxis("Horizontal");
+        verticalMovementSpeed = Input.GetAxis("Vertical");
+    }
+
     void FixedUpdate()
     {
-        curSpeed = walkSpeed;
-        maxSpeed = curSpeed;
-
-        // Move
-        if (Input.GetKey(KeyCode.LeftShift) && playerStats.currStamina > 0)
+        if(Input.GetKey(KeyCode.LeftShift))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * sprintSpeed, 0.8f),
-                                             Mathf.Lerp(0, Input.GetAxis("Vertical") * sprintSpeed, 0.8f));
+            curSpeed = sprintSpeed;
             playerStats.currStamina -= Time.deltaTime;
             staminaRecharging = false;
 
-            if(playerStats.currStamina <= 0)
+            if (playerStats.currStamina <= 0)
             {
                 playerStats.currStamina = 0;
-                GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * curSpeed, 0.8f),
-                                             Mathf.Lerp(0, Input.GetAxis("Vertical") * curSpeed, 0.8f));
+                curSpeed = walkSpeed;
             }
         }
         else
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, Input.GetAxis("Horizontal") * curSpeed, 0.8f),
-                                             Mathf.Lerp(0, Input.GetAxis("Vertical") * curSpeed, 0.8f));
+            curSpeed = walkSpeed;
             staminaRecharging = true;
         }
+
+        GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, horizontalMovementSpeed * curSpeed, 0.8f),
+            Mathf.Lerp(0, verticalMovementSpeed * curSpeed, 0.8f));
 
         if(staminaRecharging && currStaminaCooldown < staminaCooldown)
         {

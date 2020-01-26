@@ -49,7 +49,7 @@ public class EnemyStats : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("PC").transform.position) <= approachPlayerDistance || hasBeenProvoked)
         {

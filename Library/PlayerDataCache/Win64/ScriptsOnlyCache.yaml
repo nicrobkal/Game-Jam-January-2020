@@ -95,11 +95,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11344}
     - Class: 114
-      Script: {instanceID: 11778}
+      Script: {instanceID: 11658}
     - Class: 114
-      Script: {instanceID: 11812}
+      Script: {instanceID: 11780}
     - Class: 114
-      Script: {instanceID: 26472}
+      Script: {instanceID: 11814}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -679,6 +679,12 @@ ScriptsOnlyBuild:
     className: AnimationLink
   - hash:
       serializedVersion: 2
+      Hash: 6261572bcf80ccd81630c0e7864049d5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AmmoPickup
+  - hash:
+      serializedVersion: 2
       Hash: df434544c9f7b33d1cc7e635b180d279
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -773,12 +779,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 6261572bcf80ccd81630c0e7864049d5
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: AmmoPickup
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity

@@ -8,11 +8,9 @@ public class PlayerStats : MonoBehaviour
     public int maxHealth = 20;
     public int currHealth;
     public float speed = 1.25f;
-    public float agility = 5;
     public float maxStamina = 10;
     public float currStamina;
     public float staminaRechargeRate = 0.5f;
-    public float strength = 5;
     public float ammoCapacity = 100;
     public float currentAmmoCount = 60;
     public Slider healthSlider;
