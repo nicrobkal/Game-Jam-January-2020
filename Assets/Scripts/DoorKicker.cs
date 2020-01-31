@@ -16,6 +16,8 @@ public class DoorKicker : MonoBehaviour
     {
         if(collision.gameObject.tag == "PC")
         {
+            GetComponent<Rigidbody2D>().isKinematic = false;
+
             GetComponent<AudioSource>().Play();
 
             Physics2D.IgnoreCollision(collision.collider, GetComponent<Collider2D>());
@@ -30,7 +32,7 @@ public class DoorKicker : MonoBehaviour
             Vector2 size = gameObject.GetComponent<SpriteRenderer>().sprite.bounds.size;
             transform.localScale = new Vector3(transform.localScale.x, transform.localScale.y * 4, transform.localScale.z);
 
-            gameObject.layer = 17;
+            gameObject.layer = LayerMask.NameToLayer("Litter");
         }
     }
 
