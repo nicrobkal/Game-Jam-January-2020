@@ -210,10 +210,6 @@ C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\B
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Boo.Lang.Parser.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Boo.Lang.Useful.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Unity.CecilTools.dll
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Assembly-CSharp.pdb
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProject.pdb
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\PackageToolsEditor.pdb
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProjectEditor.pdb
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\UnityEngine.xml
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\UnityEditor.xml
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\UnityEditor.TestRunner.pdb
@@ -296,3 +292,7 @@ C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\Assemb
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\Assembly-CSharp-Editor.csproj.CopyComplete
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\Assembly-CSharp-Editor.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\Assembly-CSharp-Editor.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProject.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\PackageToolsEditor.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProjectEditor.pdb

@@ -259,9 +259,6 @@ C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\U
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Unity.TextMeshPro.pdb
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\UnityEditor.UI.pdb
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProject.pdb
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\PackageToolsEditor.pdb
-C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProjectEditor.pdb
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Boo.Lang.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Microsoft.CSharp.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\System.ComponentModel.Annotations.dll
@@ -280,3 +277,6 @@ C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\B
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Boo.Lang.PatternMatching.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Boo.Lang.Parser.dll
 C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\Boo.Lang.Useful.dll
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProject.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\PackageToolsEditor.pdb
+C:\Users\nicro\Documents\My Programming\Unity\Top-Down Funhouse\Temp\bin\Debug\AstarPathfindingProjectEditor.pdb

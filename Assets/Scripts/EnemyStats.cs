@@ -59,7 +59,6 @@ public class EnemyStats : MonoBehaviour
         else
         {
             GetComponent<AIPath>().canSearch = false;
-            Debug.Log(Vector3.Distance(transform.position, GameObject.FindGameObjectWithTag("PC").transform.position));
         }
 
         if(currDamageCooldown < damageCooldown)

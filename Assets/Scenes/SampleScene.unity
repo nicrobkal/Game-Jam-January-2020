@@ -8049,7 +8049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4b0c0261087db49b9f472466b1fe01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kickForce: 7
+  kickForce: 8
 --- !u!1001 &1131503914
 PrefabInstance:
   m_ObjectHideFlags: 0
