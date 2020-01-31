@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(Time.frameCount);
         horizontalMovementSpeed = Input.GetAxis("Horizontal");
         verticalMovementSpeed = Input.GetAxis("Vertical");
     }
@@ -50,6 +52,11 @@ public class PlayerMovement : MonoBehaviour
         {
             curSpeed = walkSpeed;
             staminaRecharging = true;
+        }
+
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
         GetComponent<Rigidbody2D>().velocity = new Vector2(Mathf.Lerp(0, horizontalMovementSpeed * curSpeed, 0.8f),

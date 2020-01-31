@@ -3,6 +3,7 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AmmoPickup
     - CameraFollow
+    - DoorKicker
     - EnemyStats
     - FieldOfView
     - Hideable
@@ -24,6 +25,7 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -57,6 +59,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
@@ -68,37 +74,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9926}
     - Class: 114
-      Script: {instanceID: 9962}
+      Script: {instanceID: 9936}
     - Class: 114
-      Script: {instanceID: 10148}
+      Script: {instanceID: 9964}
     - Class: 114
-      Script: {instanceID: 10320}
+      Script: {instanceID: 10150}
     - Class: 114
-      Script: {instanceID: 10348}
+      Script: {instanceID: 10322}
     - Class: 114
-      Script: {instanceID: 10352}
+      Script: {instanceID: 10350}
     - Class: 114
-      Script: {instanceID: 10446}
+      Script: {instanceID: 10354}
     - Class: 114
-      Script: {instanceID: 10508}
+      Script: {instanceID: 10448}
     - Class: 114
-      Script: {instanceID: 10526}
+      Script: {instanceID: 10510}
     - Class: 114
-      Script: {instanceID: 10736}
+      Script: {instanceID: 10528}
     - Class: 114
-      Script: {instanceID: 10808}
+      Script: {instanceID: 10738}
     - Class: 114
-      Script: {instanceID: 11266}
+      Script: {instanceID: 10810}
     - Class: 114
       Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11344}
+      Script: {instanceID: 11270}
     - Class: 114
-      Script: {instanceID: 11658}
+      Script: {instanceID: 11346}
     - Class: 114
-      Script: {instanceID: 11780}
+      Script: {instanceID: 11660}
     - Class: 114
-      Script: {instanceID: 11814}
+      Script: {instanceID: 11782}
+    - Class: 114
+      Script: {instanceID: 11816}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -222,6 +230,12 @@ ScriptsOnlyBuild:
     className: AIPath
   - hash:
       serializedVersion: 2
+      Hash: e89b9b8ac8ae414b1a411cd3e13658b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorKicker
+  - hash:
+      serializedVersion: 2
       Hash: 234235b9fb07320d11497e08a726cc56
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -336,7 +350,7 @@ ScriptsOnlyBuild:
     className: AILerp
   - hash:
       serializedVersion: 2
-      Hash: e12fdb57fd2b97b6763c40bf50c23f4c
+      Hash: be9f17fd0ad993432f2cd5ee174e31dd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ProjectileLaunch
